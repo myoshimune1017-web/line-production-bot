@@ -1,0 +1,16 @@
+{
+  "name": "line-production-bot",
+  "version": "1.0.0",
+  "description": "LINEで生産計画を自動作成するボット",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.7.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.56.0"
+  }
+}
